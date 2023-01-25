@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  overflow: hidden;
+  text-align: center;
+}
+
+canvas{
+   border: 2px dashed black;
+}
+
+h1{
+   cursor: pointer;
+}
+
+button{
+   font-family: 'Source Sans Pro', sans-serif;
+   padding: 10px;
+   margin-bottom: 10px;
+   cursor: pointer;
+   background-color: green;
+   color: white;
+   border-radius: 50px;
+}
+
+button:hover{
+  background-color: aquamarine;
+  color:black;
+}
